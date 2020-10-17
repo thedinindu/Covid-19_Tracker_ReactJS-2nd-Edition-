@@ -1,0 +1,11 @@
+.app__stat {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 990px) {
+  .app__stat {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+}

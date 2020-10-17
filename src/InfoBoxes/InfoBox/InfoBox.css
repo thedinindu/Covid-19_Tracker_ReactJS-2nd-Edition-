@@ -1,0 +1,55 @@
+.infoBox {
+    display: flex;
+    flex: 1;
+    cursor: pointer;
+}
+
+.infoBox:not(:last-child) {
+    margin-right: 15px;
+    background-color: #232323;
+}
+
+.infoBox:last-child {
+    background-color: #232323;
+}
+
+.infoBox__cases {
+    color: #CC1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.infoBox__total {
+    color: #6C757D;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-top: 15px !important;
+}
+
+.infoBox--selected {
+    border-top: 10px solid #7DD71D;
+}
+
+.infoBox--case {
+    border-color: #CC1034;
+    color: #CC1034 !important;
+}
+
+.infoBox--recovered {
+    border-color: #7DD71D;
+    color:  #7DD71D !important;
+}
+
+.infoBox--death {
+    border-color: #FB4443;
+    color: #FB4443 !important;
+}
+
+@media (max-width: 990px) {
+    .infoBox {
+      margin-top: 10px;
+      width: 100%;
+      background-color: #232323;
+    }
+  }

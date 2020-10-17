@@ -1,0 +1,17 @@
+.app__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.app__header h1 {
+  color: white;
+  font-family: 'Sansita Swashed', cursive;
+
+}
+
+.app__dropdown {
+  background-color: white;
+  border-radius: 5px;
+}
